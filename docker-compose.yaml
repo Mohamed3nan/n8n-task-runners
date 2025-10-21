@@ -5,6 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: n8nio/runners:custom
+    image: n8nio/runners:custom-anan
     environment:
       NODE_ENV: production
