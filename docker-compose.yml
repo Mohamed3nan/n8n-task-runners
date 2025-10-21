@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  runners:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: n8nio/runners:custom
+    environment:
+      NODE_ENV: production
