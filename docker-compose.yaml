@@ -1,8 +1,7 @@
 version: "3.9"
-
 services:
-  runners:
+  runner-builder:
     build:
       context: .
       dockerfile: Dockerfile
-    image: n8nio/runners:custom-anan
+    image: n8nio/runners:custom
